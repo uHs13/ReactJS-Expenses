@@ -1,4 +1,4 @@
-import ExpensesList from './components/ExpensesList';
+import ExpensesList from './components/Expenses/ExpensesList';
 import './App.css';
 
 function App() {
@@ -12,6 +12,16 @@ function App() {
       date: new Date(2022, 9, 15).toUTCString(),
       title: 'Investment',
       amount: 2850
+    },
+    {
+      date: new Date(2023, 10, 1).toUTCString(),
+      title: 'Nike',
+      amount: 850
+    },
+    {
+      date: new Date(2023, 6, 14).toUTCString(),
+      title: 'City Group',
+      amount: 3400
     },
   ];
 
