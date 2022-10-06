@@ -27,3 +27,7 @@
     text-align: center;
     margin-top: 1rem;
 }
+
+.new-expense-actions .cancel {
+    background-color: #953553;
+}

@@ -1,0 +1,13 @@
+.empty-list {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-list img {
+    width: 30%;
+    height: 30%;
+    margin: 5% 5%;
+}
