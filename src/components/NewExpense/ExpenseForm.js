@@ -32,7 +32,7 @@ function ExpenseForm(props) {
 
     const amountChangeHandler = (event) => {
         setUserInput((previousState) => {
-            return { ...previousState, amount: event.target.value };
+            return { ...previousState, amount: Number.parseInt(event.target.value) };
         });
     };
 
